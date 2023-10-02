@@ -1,0 +1,135 @@
+.star-date{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+    margin: 50px auto;
+}
+
+.end-date{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin: 50px auto;
+
+}
+
+.div-date{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 50px auto;
+}
+
+<div>
+
+    <input type="file" id="myFile">
+
+    <p>Click the "Try it" button to disable the file upload button.</p>
+
+    <button onclick="myFunction()">Try it</button> 
+
+<script>
+    function myFunction() {
+    var x = document.getElementById("myFile");
+    x.disabled = true;
+    }
+</script>
+
+
+<div class="div-left">
+                <p>Hi pals, my name is Muhammad Rayhanul Ihsan for short you can call me ihsan, I was burn in West Sumatra, specifically Bukittinggi. I am 23 years old, and my hobby is sports. I've just graduated from college and am awaiting the schedule for my graduation. I am a beginner in the field of web development.</p>
+                <table>
+                    <tr>
+                        <td class="tr1"><a href="https://wa.me/6282381009670">contact</a></td>
+                        <td id="td1">download CV</td>
+                        <td id="td1">
+                        <a href="https://docs.google.com/document/d/1pVgnX7YXHsh7maLtIZJk_rSft-BcWTsI/edit?usp=sharing&ouid=118364168265752114488&rtpof=true&sd=true"><img src="./assets/images/unduh.svg" alt="unduh"></a>
+                        </td>
+                    </tr>   
+                </table>
+                    <div class="sosmed">
+                        <a href="linked" id="linked"><img src="./assets/images/linkedin.svg" alt="linkedin"></a>
+                        <a href="https://instagram.com/rayhan_ihsn" id="instagram"><img src="./assets/images/instagram.svg" alt="instagram"></a>
+                        <a href="facebook" id="facebook"><img src="./assets/images/facebook.svg" alt="facebook"></a>
+                        <a href="https://x.com/sonofbentala?s=11" id="twitter"><img src="./assets/images/twitter.svg" alt="twitter"></a>
+                    </div>
+            </div> 
+
+.div-left{
+    width: 50%;
+    text-align:justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tr1{
+    color: white; 
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: black; 
+    text-align: center;
+}
+
+
+
+.sosmed{
+    margin-top: 30px;
+}
+#linked{
+    margin-right: 15px;
+}
+#instagram{
+    margin-right: 15px;
+}
+#facebook{
+    margin-right: 15px;
+}
+#twitter{
+    margin-right: 15px;
+}
+
+.div-right{
+    margin: 20px 0 20px; 
+    width: 40%; 
+    border: 0px solid #ffffff; 
+    border-radius: 10px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    box-shadow: 0 0 10px #3d3d3d;
+}
+#pic{
+    display:block; 
+    width: 100%; 
+    height: 300px; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+
+h2{
+    margin-top: 10px; 
+    text-align:center;
+}
+
+#p2{ 
+    margin-top: 0px; 
+    text-align:center;
+ }
+
+ .form2{ 
+
+    width: 340px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.judul{
+    width: 100%;
+    margin: 50px auto;
+}
+.div-left{
+    border-radius: 15px;
+}
+
+###################################################
+
+form{
+    width: 350px;
+    margin: 50px auto;
+    padding: 15px;
+}

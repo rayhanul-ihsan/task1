@@ -54,15 +54,12 @@ a{
 form{
     width: 350px;
     margin: 50px auto;
+    background-color: #dbdbdb;
 }
 
 h1{
     text-align:center;
 }
-
-
-
-
 
 input, select, textarea{
     background-color: #ffffff;
@@ -94,8 +91,10 @@ button{
     color: #fff;
     font-size: 15px;
     margin-left: 240px;
+    cursor: pointer;
 }
 
+/* profile */
 .form2{
     width: 800px;
     margin: 200px auto;
@@ -120,21 +119,8 @@ button{
     text-align: center;
 }
 
-
-
-.sosmed{
+.sosmed img{
     margin-top: 30px;
-}
-#linked{
-    margin-right: 15px;
-}
-#instagram{
-    margin-right: 15px;
-}
-#facebook{
-    margin-right: 15px;
-}
-#twitter{
     margin-right: 15px;
 }
 
@@ -154,12 +140,159 @@ button{
     border-top-right-radius: 10px;
 }
 
-h2{
-    margin-top: 10px; 
-    text-align:center;
+.text-image h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.text-image p{
+    margin-top: -20px;
+    text-align: center;
 }
 
-#p2{ 
-    margin-top: 0px; 
-    text-align:center;
- }
+/* myproject */
+.myproject-form{
+    width: 350px;
+    margin: 50px auto;
+}
+
+.myproject-form div{
+    margin-top: 10px;
+}
+
+.myproject-form label{
+    font-weight: bold;
+}
+
+.myproject-form .div-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start-date {
+    align-items: start;
+    margin-right: 10px;
+
+}
+
+.end-date {
+    align-items: end;
+
+}
+
+.myproject-form .div-checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check-left{
+    align-items: start;
+}
+.check-right{
+    align-items: end;
+}
+
+.table label{
+    font-weight: normal;
+    color: #5c5b5b;
+}
+
+button{
+    background-color: #000;
+    padding: 5px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 240px;
+    cursor: pointer;
+}
+
+.myproject hr{
+    border: 1px solid #ffffff;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* project */
+.myproject-form2 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.myproject-form2 .project{
+    width: 350px;
+    height: 450px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.myproject-form2 .project .project-image img{
+    display:block; 
+    width: 100%; 
+    height: 250px; 
+    border-radius: 10px;
+}
+.project .project-p{
+    text-align: justify;
+}
+
+.project .btn{
+    text-align: right;
+    margin-bottom: 20px;
+}
+/* .project .btn .btn-edit{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: black;
+    color: #fff;
+    
+}
+.project .btn .btn-delete{
+    background-color: #000;
+    padding: 5px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 200px;
+    cursor: pointer;
+} */
+
+
+
+/* myproject detail */
+
+.container{
+    width: auto;
+    height: 900px;
+    border: 10px solid green;
+    align-items: center;
+    margin-left: 65px;
+    margin-right: 30px;
+}
+.judul{
+    background-color: red;
+}
+
+.pic img{
+    width: 680px;
+    height: 420px;
+}
+
+.paragraf{
+    background-color: red;
+    text-align: justify;
+    width: 100%;
+}
+
+.container .text-right{
+
+}
