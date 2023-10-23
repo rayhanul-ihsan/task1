@@ -1,7 +1,9 @@
-<html >
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>my project</title>
-                <link href="./assets/css/style.css" rel="stylesheet" >
+        <link href="./assets/css/myproject.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <body>
@@ -9,18 +11,31 @@
             <div class="nav-left">
                 <ul>
                     <img src="./assets/images/logo.png" alt="logo">
-                    <li>
+                    <!-- <li>
                         <a href="./contact-me.html">Home</a>
                     </li>
                     <li>
-                        <a href="./my-project-detail.html.html">My Project</a>
-                    </li>
+                        <a href="./my-project-detail.html">My Project</a>
+                    </li> -->
                 </ul>
             </div>
-            <div class="nav-right">
+            <!-- <div class="nav-right">
                 <a href="https://wa.me/6282381009670">contact me</a>
+            </div> -->
+            <div class="nav-right" id="menu">
+                <button class="nav-menu" onclick="openmenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
         </nav>
+        <div class="menu-nav-cont" id="menu-nav-cont">
+                <a href="./index.html" class="menu-active">Home</a>
+                <a href="./my-project.html">Myproject</a>
+            <div class="contact-me">
+                <a href="https://wa.me/6282381009670">Contact Me</a>
+            </div>
+        </div>
+
         <div class="myproject">
             <div class="myproject-form">
                 <form onsubmit="submitData(event)">
@@ -34,12 +49,12 @@
                     <div class="div-date">
                         <div class="start-date">
                             <label for="start">Start date</label>
-                            <input type=date id=start required>
+                            <input type="date" id="start" required>
                         </div>
 
                         <div class="end-date">
                             <label for="end">End date</label>
-                            <input type=date id=end required>
+                            <input type="date" id="end" required>
                         </div>
                     </div>            
                     <div>
@@ -53,15 +68,15 @@
 
                     <table class="table">
                         <tr>
-                            <td><input type="checkbox" name="linked" value="linked"></td>
-                            <td><label for="linked"> linkedin</label></td>
-                            <td><input type="checkbox" name="ig" value="ig  "></td>
+                            <td><input type="checkbox" name="linked" value="linked" onclick="check()"></td>
+                            <td><label for="linked" > linkedin</label></td>
+                            <td><input type="checkbox" name="ig" value="ig" onclick="check()"></td>
                             <td><label for="ig"> instagram</label></td>
                         </tr>
                         <tr>
-                            <td><input type="checkbox" name="fb" value="fb"></td>
+                            <td><input type="checkbox" name="fb" value="fb" onclick="check()"></td>
                             <td><label for="fb"> facebook</label></td>
-                            <td><input type="checkbox" name="twitt" value="twitt"></td>
+                            <td><input type="checkbox" name="twitt" value="twitt" onclick="check()"></td>
                             <td><label for="twitt"> twitter</label></td>
                         </tr>
                     </table>
@@ -70,8 +85,8 @@
                         <label for="myFile">Upload Image</label>
                         <input type="file" id="myFile">
                     </div>  
-                    <div>
-                        <button>Submit</button>
+                    <div class="btn-submit">
+                        <button type="submit">Submit</button>
                     </div>
                 </form>
             </div>
@@ -88,14 +103,18 @@
                     <div>
                         <h3>
                             <a href="./my-project-detail.html" target="_blank"></a>Dumbways Mobile App 2021</h3>
-                        <p>durasi : 3 bulan</p>
+                        <p id="durasi" style="font-size: 14px; color: #5d5c5c; margin-top: -10px;">durasi : 3 bulan</p>
                     </div>
                     <div class="project-p">
                         <p>App that used for Dumbways student, it was deployed and can downloaded on playstore. Happy download</p>
                     </div>
                     <div class="btn">
-                        <button class="btn-edit">edit</button>
-                        <button class="btn-delete">delete</button>
+                        <table>
+                            <tr>
+                                <td><button class="btn-edit">edit</button></td>
+                                <td><button class="btn-delete">delete</button></td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -103,4 +122,5 @@
         
     </body>
     <script src="assets/js/myproject.js"></script>
+    <script src="assets/js/button.js"></script>
 </html>

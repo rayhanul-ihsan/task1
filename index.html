@@ -2,6 +2,7 @@
     <head>
         <title>profile</title>
         <link href="./assets/css/style.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <boddy>
@@ -9,21 +10,33 @@
             <div class="nav-left">
                 <ul>
                     <img src="./assets/images/logo.png" alt="logo">
-                    <li>
+                    <!-- <li>
                         <a href="./contact-me.html">Home</a>
                     </li>
                     <li>
-                        <a href="./my-project.html.html">My Project</a>
-                    </li>
+                        <a href="./my-project-detail.html">My Project</a>
+                    </li> -->
                 </ul>
             </div>
-            <div class="nav-right">
+            <!-- <div class="nav-right">
                 <a href="https://wa.me/6282381009670">contact me</a>
+            </div> -->
+            <div class="nav-right" id="menu">
+                <button class="nav-menu" onclick="openmenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
         </nav>
+        <div class="menu-nav-cont" id="menu-nav-cont">
+                <a href="./contact-me.html" class="menu-active">Home</a>
+                <a href="./my-project.html">Myproject</a>
+            <div class="contact-me">
+                <a href="https://wa.me/6282381009670">Contact Me</a>
+            </div>
+        </div>
 
         <div class="form2">
-            <div class="div-left">
+            <div class="div-text">
                 <h1>Hi Welcome to my profile</h1>
                 <p>Hi pals, my name is Muhammad Rayhanul Ihsan for short you can call me ihsan, I was burn in West Sumatra, specifically Bukittinggi. I am 23 years old, and my hobby is sports. I've just graduated from college and am awaiting the schedule for my graduation. I am a beginner in the field of web development.</p>
                 <table>
@@ -41,16 +54,19 @@
                         <a href="facebook" id="facebook"><img src="./assets/images/facebook.svg" alt="facebook"></a>
                         <a href="https://x.com/sonofbentala?s=11" id="twitter"><img src="./assets/images/twitter.svg" alt="twitter"></a>
                     </div>
+                    <div class="div-img">
+                        <img src="./assets/images/img.jpg" alt="rayhan" id="pic"/>
+                        <div class="text-image">
+                            <h2>M Rayhanul Ihsan</h2>
+                            <p>Fullstack Developer</p>
+                        </div>
+                    </div>
             </div>
         
-            <div class="div-right">
-                <img src="./assets/images/img.jpg" alt="rayhan" id="pic"/>
-                <div class="text-image">
-                    <h2>M Rayhanul Ihsan</h2>
-                    <p>Fullstack Developer</p>
-                </div>
-            </div>
+            
         </div>
         
     </boddy>
+    <script src="assets/js/button.js"></script>
+    <script src="assets/js/script.js"></script>
 </html>

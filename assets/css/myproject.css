@@ -1,0 +1,295 @@
+html{
+    background-color: #e8e8e8;
+}
+
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e8e8e8;
+    padding: 0px 40px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-left ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-left ul li{
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.nav-left img{
+    margin-right: 50px;
+}
+
+.nav-left a{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-left a:hover{
+    color: orangered;
+}
+
+.nav-right{
+    display: flex;
+    border: none;
+}
+
+.menu-nav-cont a{
+    text-decoration: none;
+    background-color: #dbdbdd;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #dbdbdb;
+}
+
+.menu-nav-cont{
+    display: none;
+}
+
+.nav-right .nav-menu{
+    padding: 10px 20px;
+    color: black;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+form{
+    width: 350px;
+    margin: 50px auto;
+    background-color: #e8e8e8;
+}
+
+input, select, textarea{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    margin-top: 2px;
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+
+form div{
+    margin-top: 10px;
+}
+
+form label{
+    font-weight: bold;
+}
+
+button{
+    background-color: #000;
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 240px;
+    cursor: pointer;
+}
+
+/* myproject */
+.myproject-form{
+    width: 350px;
+    margin: 50px auto;
+}
+
+.myproject-form div{
+    margin-top: 10px;
+}
+
+.myproject-form label{
+    font-weight: bold;
+}
+
+.myproject-form .div-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start-date {
+    align-items: start;
+    margin-right: 10px;
+
+}
+
+.end-date {
+    align-items: end;
+
+}
+
+.myproject-form .div-checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .myproject-form form input textarea{
+
+} */
+
+.check-left{
+    align-items: start;
+}
+.check-right{
+    align-items: end;
+}
+
+.table label{
+    font-weight: normal;
+    color: #5c5b5b;
+}
+
+.btn-submit{
+    margin-top: 10px;
+}
+
+.btn-submit button{
+    background-color: #000;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 240px;
+    cursor: pointer;
+}
+
+.myproject hr{
+    border: 1px solid #ffffff;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* project */
+.myproject-form2 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project{
+    border: 1px solid #ffffff;
+}
+.myproject-form2 .project{
+    width: 350px;
+    height: 475px;
+    margin-left: 50px;
+    margin-top: 90px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.myproject-form2 .project .project-image img{
+    display:block; 
+    width: 100%; 
+    height: 250px; 
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.myproject-form2 .project .project-image h3{
+    margin-bottom: none;
+}
+
+.project .project-p{
+    text-align: justify;
+}
+
+
+.btn{
+    margin-top: 60px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.btn table{      
+    justify-content: space-between;
+    width: 350px;
+    margin-bottom: 20px;
+}
+.btn .btn-edit{
+    padding: 5px 70px;
+    border: none;
+    margin-left: -10px;
+    border-radius: 4px;
+    background-color: black;
+    color: #fff;
+    
+}
+.btn .btn-delete{
+    padding: 5px 70px;
+    border: none;
+    margin-left: 15px;
+    border-radius: 4px;
+    background-color: black;
+    color: #fff;
+}
+
+
+
+/* myproject detail */
+
+.myproject-form3{
+    width: auto;
+    height: 900px;
+    border: 10px solid #dbdbdd;
+    margin: 50px auto;
+}
+
+
+.img-text{
+    display: flex;
+    align-items: center;
+}
+
+.judul{
+    text-align: center;
+}
+
+.pic img{
+    width: 100%;
+    height: 200px;
+}
+
+.div-detail-right{
+    padding-left: 10px;
+    float: right;
+}
+
+.paragraf{
+    text-align: justify;
+    width: 100%;
+}
+
+
+
+
+
+
+/* https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css */
